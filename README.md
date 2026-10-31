@@ -1,4 +1,3 @@
-<!-- SETUP: replace YOUR-STATS-INSTANCE.vercel.app with your deployment URL. Run snake.yml successfully before publishing its image block. -->
 <!-- ===== THEME-AWARE HERO BANNER ===== -->
 <!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
@@ -17,7 +16,7 @@
 </picture>
 </div>
 
-<!-- ===== GITHUB STATS ===== -->
+<!-- ===== CONTRIBUTION STREAK + LANGUAGES ===== -->
 
 <div align="center">
 
@@ -29,14 +28,11 @@
 
 <br/>
 
-<!-- Stats + Top languages — side by side -->
+<!-- Most Used Languages — no Vercel or token required -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-STATS-INSTANCE.vercel.app/api?username=Nikhil162004&show_icons=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-  <img width="49%" src="https://YOUR-STATS-INSTANCE.vercel.app/api?username=Nikhil162004&show_icons=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Nikhil's GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-STATS-INSTANCE.vercel.app/api/top-langs/?username=Nikhil162004&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
-  <img width="49%" src="https://YOUR-STATS-INSTANCE.vercel.app/api/top-langs/?username=Nikhil162004&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nikhil162004/Nikhil162004/main/languages-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nikhil162004/Nikhil162004/main/languages-light.svg">
+  <img width="600" src="https://raw.githubusercontent.com/Nikhil162004/Nikhil162004/main/languages-light.svg" alt="Nikhil's Most Used Languages">
 </picture>
 
 </div>
